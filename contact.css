@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'HelloTintin';
+    src: url('./font/HelloTintin.otf');
+  }
+  @font-face {
+    font-family: 'Mustard_Smile';
+    src: url('./font/Mustard\ Smile.otf');
+  }
+  @font-face {
+    font-family: 'Mandala';
+    src: url('./font/Mandala\ In\ Autumn.otf');
+  }
+  @font-face {
+    font-family: 'Angeline';
+    src: url('./font/Angeline\ Vintage_Demo.otf');
+  }
+  @font-face {
+    font-family: 'Thesignature';
+    src: url('./font/Thesignature.otf');
+  }
+
+  /* ************************************************************************************************ */
+
+body{
+    background-color: #65aaf0;
+  }
+  div#header{
+    background-color: #65aaf0;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    margin-left: -8px;
+  }
+  div#about_us{
+    float: left;
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  
+  /* Main top : */
+  /* -------------------------------------------------------- */
+  
+  #main {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #65aaf0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+  }
+  li a:hover{
+    background-color: rgba(251, 251, 252, 0.274);
+    
+  }
+  #noumber{
+    color: aliceblue;
+    position: absolute;
+    right: 20px;
+  }
+  /* contact_screen : */
+  /* -------------------------------------------------------- */
+  div#contact_screen{
+    text-align: center;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  /* ************************************************************************************************ */
+/* about_us : */
+/* -------------------------------------------------------- */
+div#gallery_about_us{
+    float: left;
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  /* myprojects */
+  /* ------------------------------------------------------------------ */
+  div#gallery_myprojects{
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  #gallery_img_div{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 200px;
+    width: 800px;
+  
+  } 

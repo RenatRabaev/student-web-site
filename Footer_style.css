@@ -1,0 +1,50 @@
+/* myprojects : */
+/* -------------------------------------------------------- */
+div#myprojects{
+    
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  #gallery_div_project{
+    position: relative;
+    top: -40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 400px;
+    width: 900px;
+  
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .mtrx-6{
+    float: left;
+    padding: 15px;
+    width: 50%;
+  }
+  
+  .col-6 {width: 50%;}
+
+  .menu ul {
+    list-style-type: none;
+  }
+  .menu li {
+    padding: 4px;
+    margin-bottom: 10px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+
+ 

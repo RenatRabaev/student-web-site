@@ -1,0 +1,113 @@
+/* modal_img main : */
+/* -------------------------------------------------------- */
+#pImg_1,#pImg_2,#pImg_3,#pImg_4,#pImg_5,#pImg_6
+{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#pImg_1:hover {opacity: 0.7;}
+#pImg_2:hover {opacity: 0.7;}
+#pImg_3:hover {opacity: 0.7;}
+#pImg_4:hover {opacity: 0.7;}
+#pImg_5:hover {opacity: 0.7;}
+#pImg_6:hover {opacity: 0.7;}
+
+
+/* modal */
+/* -------------------------------------------------------- */
+/* The Modal (background) */
+.p_modal_1,.p_modal_2,.p_modal_3,.p_modal_4,.p_modal_5,.p_modal_6 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .p_modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #p_caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  }
+  
+  /* Add Animation */
+  .p_modal-content, #p_caption {  
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+  from {transform: scale(0.1)} 
+  to {transform: scale(1)}
+  }
+  
+  /* The Close Button */
+  .p_close_1,.p_close_2,.p_close_3,.p_close_4,.p_close_5,.p_close_6 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  }
+  
+  .p_close_1:hover,.p_close_1:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .p_close_2:hover,.p_close_2:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .p_close_3:hover,.p_close_3:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .p_close_4:hover,.p_close_4:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .p_close_5:hover,.p_close_5:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .p_close_6:hover,.p_close_6:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+  }

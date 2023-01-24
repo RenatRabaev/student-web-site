@@ -1,0 +1,22 @@
+#news{
+  
+  float: left;
+  margin-left: 400px;
+  margin-top: -840px;
+
+}
+#main_news_text{
+  padding: 13px;
+  text-align: center;
+}
+
+#news_button{
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+  background-color: rgb(71, 70, 70);
+  border: 1px solid #ffffff;
+}
+h3#news_h3{
+  padding-left: -700px;
+}

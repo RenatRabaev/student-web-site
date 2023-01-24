@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Student.css">
+    <link rel="stylesheet" href="model_galery.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="about_us.css">
+    <link rel="stylesheet" href="Footer_style.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <title>contact</title>
+</head>
+<body>
+    <header> 
+        <div id = "main">
+            <a><h2 id="noumber">4578</h2></a>
+            <li><a class="home" href="index.html">HOME</a></li>
+            <li><a class="gallery" href="gallery.html">GALLERY</a></li>
+            <li><a class="contact" href="contact.html">CONTACT</a></li>
+            <li><a class="about" href="about-us.html">ABOUT</a></li>
+        </div>
+    </header>
+    <section>
+        <div id="contact_screen" >
+            <div id="show_map" >
+                <iframe width="99%" height="700" id="gmap_canvas" 
+                src="https://maps.google.com/maps?q=israel,hadera&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe>      
+            </div>
+        </div>
+    </section>
+
+    <!-- ************************************************************************************************************* -->
+    <footer>
+        <div id = "footer">
+            <div id = "about_us">
+                <h3>ABOUT US</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
+                  Adipisci hic sint eum maxime recusandae similique<br />
+                  Victortira State Newyork, USA<br />
+                  +38 000 12787878<br />
+                  <a href="mailto:rinatik83@gmail.com"><i style="color:red" class="fa-solid fa-2xl fa-envelope">rinatik83@gmail.com</i></a>
+                </p>
+            </div>
+            <div id="myprojects">
+                <h3 id="h3">PHOTO GALLERY</h3>
+                <div id="gallery_div_project">
+                    <div class="row">
+                        <div class="mtrx-6 menu">
+                            <ul>
+                              <li><img id="pImg_1" src="people/1.jpeg" alt="pImg_1" width="150" height="90"></li>
+                              <li><img id="pImg_2" src="people/2.jpeg" alt="pImg_2" width="150" height="90"></li>
+                              <li><img id="pImg_3" src="people/3.jpeg" alt="pImg_3" width="150" height="90"></li>
+                            </ul>
+                            <ul>
+                                <li><img id="pImg_4" src="people/4.jpeg" alt="pImg_4" width="150" height="90"></li>
+                                <li><img id="pImg_5" src="people/5.jpeg" alt="pImg_5" width="150" height="90"></li>
+                                <li><img id="pImg_6" src="people/6.jpeg" alt="pImg_6" width="150" height="90"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="news">
+                    <h3 id= "news_h3">NEWSLETTER REGISTRATION</h3>
+                    <p>Subscribe today to receive the latest Day<br />
+                        email. You may unsubscribe from this service at any<br />
+                        time
+                    </p>
+                    <form>
+                        <input id="news_text" type="text"  placeholder="ENETR EMAIL"/>
+                        <br />
+                        <button id="news_button">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+  
+    </footer>
+        <!-- ************************************************************************************************************* -->
+
+<!-- ************************************************************************************************************* -->
+    <!-- The Modal Gallery-->
+    <div id="p_myModal_1" class="p_modal_1">
+        <span class="p_close_1">&times;</span>
+        <img class="p_modal-content" id="p_img01">
+        <div id="p_caption"></div>
+      </div>
+      
+      <div id="p_Modal_2" class="p_modal_2">
+        <span class="p_close_2">&times;</span>
+        <img class="p_modal-content" id="p_img02">
+        <div id="p_caption"></div>
+      </div>
+  
+      <div id="p_myModal_3" class="p_modal_3">
+          <span class="p_close_3">&times;</span>
+          <img class="p_modal-content" id="p_img03">
+          <div id="p_caption"></div>
+        </div>
+  
+        <div id="p_myModal_4" class="p_modal_4">
+          <span class="p_close_4">&times;</span>
+          <img class="p_modal-content" id="p_img04">
+          <div id="p_caption"></div>
+        </div>
+  
+        <div id="p_myModal_5" class="p_modal_5">
+          <span class="p_close_5">&times;</span>
+          <img class="p_modal-content" id="p_img05">
+          <div id="p_caption"></div>
+        </div>
+  
+        <div id="p_myModal_6" class="p_modal_6">
+          <span class="p_close_6">&times;</span>
+          <img class="p_modal-content" id="p_img06">
+          <div id="p_caption"></div>
+        </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('p_myModal_1');
+        var modal = document.getElementById('p_myModal_2');
+        var modal = document.getElementById('p_myModal_3');
+        var modal = document.getElementById('p_myModal_4');
+        var modal = document.getElementById('p_myModal_5');
+        var modal = document.getElementById('p_myModal_6');
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('pImg_1');
+        var modalImg = document.getElementById("p_img01");
+        var captionText = document.getElementById("p_caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        var img = document.getElementById('pImg_2');
+        var modalImg = document.getElementById("p_img02");
+        var captionText = document.getElementById("p_caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        var img = document.getElementById('pImg_3');
+        var modalImg = document.getElementById("p_img03");
+        var captionText = document.getElementById("p_caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        var img = document.getElementById('pImg_4');
+        var modalImg = document.getElementById("p_img04");
+        var captionText = document.getElementById("p_caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        var img = document.getElementById('pImg_5');
+        var modalImg = document.getElementById("p_img05");
+        var captionText = document.getElementById("p_caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        var img = document.getElementById('pImg_6');
+        var modalImg = document.getElementById("p_img06");
+        var captionText = document.getElementById("p_caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("p_close_1")[0];
+        var span = document.getElementsByClassName("p_close_2")[0];
+        var span = document.getElementsByClassName("p_close_3")[0];
+        var span = document.getElementsByClassName("p_close_4")[0];
+        var span = document.getElementsByClassName("p_close_5")[0];
+        var span = document.getElementsByClassName("p_close_6")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+    </script>
+  
+
+
+
+</body>
+</html>

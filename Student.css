@@ -1,0 +1,145 @@
+/* ************************************************************************************************ */
+
+body{
+  background-color: #65aaf0;
+}
+div#header{
+  background-color: #65aaf0;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  margin-left: -8px;
+}
+/* div#about_us{
+  float: left;
+  margin-left: 80px;
+  margin-top: 30px;
+} */
+
+/* Main top : */
+/* -------------------------------------------------------- */
+
+#main {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #65aaf0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: rgba(251, 251, 252, 0.274);
+  
+}
+#noumber{
+  color: aliceblue;
+  position: absolute;
+  right: 20px;
+}
+/* screen_nav : */
+/* -------------------------------------------------------- */
+div#screen_nav{
+  background-image: url('./images/homepage-background.jpg');
+  background-repeat: no-repeat;
+  padding: 700px 180px 0px 180px ;
+  background-size: 100% 100%;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* ************************************************************************************************ */
+
+/* Log in : */
+/* -------------------------------------------------------- */
+
+#filed{
+  height: 280px;
+  /* width: 89px; */
+}
+div#log_in_form{
+  position: absolute;
+  top: 120px;
+  right: 700px;
+  width: 600px;
+  height: 300px;
+  margin: 80px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: rgb(71, 70, 70);
+  color: white;
+  opacity: 90%;
+}
+label#lb_massage{
+    position: relative;
+    color: #ffffff;
+    bottom: 300px;
+    left: 100px;
+}
+textarea#txt_massage{
+    position: relative;
+    left: 80px;
+    bottom: 130px;
+    width:300px;
+    height:150px;
+}
+input#subBut{
+  position:relative;
+  left: 2px;
+  bottom: 120px;
+  border: 3px solid #ffffff;
+  background-color: #13a9df;
+  color: #ffffff;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+button#sub_massage{
+  position:relative;
+  left: 0px;
+  top:-90px;
+  border: 3px solid #ffffff;
+  background-color: #13a9df;
+  color: #ffffff;
+  padding: 4px;
+  padding-left: 18px;
+  padding-right: 19px;
+  animation-name: button;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-iteration-count: linear;
+  cursor: pointer;
+}
+@keyframes button {
+  0% {bottom: 110px;}
+  50% {bottom: 130px;}
+  100% {bottom: 110px;}
+}
+#p{
+  position: relative;
+  top: -150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
